@@ -1,0 +1,11 @@
+E:\Repositories\Visual Basic 2013\Modern Dashboard\Modern Dashboard\bin\Debug\Modern Dashboard.exe.config
+E:\Repositories\Visual Basic 2013\Modern Dashboard\Modern Dashboard\bin\Debug\Modern Dashboard.exe
+E:\Repositories\Visual Basic 2013\Modern Dashboard\Modern Dashboard\bin\Debug\Modern Dashboard.pdb
+E:\Repositories\Visual Basic 2013\Modern Dashboard\Modern Dashboard\bin\Debug\Modern Dashboard.xml
+E:\Repositories\Visual Basic 2013\Modern Dashboard\Modern Dashboard\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\Repositories\Visual Basic 2013\Modern Dashboard\Modern Dashboard\obj\Debug\Modern Dashboard.vbprojResolveAssemblyReference.cache
+E:\Repositories\Visual Basic 2013\Modern Dashboard\Modern Dashboard\obj\Debug\Modern_Dashboard.Resources.resources
+E:\Repositories\Visual Basic 2013\Modern Dashboard\Modern Dashboard\obj\Debug\Modern Dashboard.vbproj.GenerateResource.Cache
+E:\Repositories\Visual Basic 2013\Modern Dashboard\Modern Dashboard\obj\Debug\Modern Dashboard.exe
+E:\Repositories\Visual Basic 2013\Modern Dashboard\Modern Dashboard\obj\Debug\Modern Dashboard.xml
+E:\Repositories\Visual Basic 2013\Modern Dashboard\Modern Dashboard\obj\Debug\Modern Dashboard.pdb
