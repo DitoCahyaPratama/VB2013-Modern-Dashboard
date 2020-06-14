@@ -51,16 +51,29 @@ Partial Class Form1
         Me.BunifuFlatButton2 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BunifuFlatButton1 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.BunifuImageButton13 = New Bunifu.Framework.UI.BunifuImageButton()
+        Me.BunifuImageButton12 = New Bunifu.Framework.UI.BunifuImageButton()
+        Me.BunifuImageButton11 = New Bunifu.Framework.UI.BunifuImageButton()
+        Me.BunifuImageButton10 = New Bunifu.Framework.UI.BunifuImageButton()
+        Me.BunifuImageButton9 = New Bunifu.Framework.UI.BunifuImageButton()
+        Me.BunifuImageButton8 = New Bunifu.Framework.UI.BunifuImageButton()
+        Me.BunifuImageButton7 = New Bunifu.Framework.UI.BunifuImageButton()
+        Me.BunifuCustomLabel8 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel7 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel6 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel5 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuSlider2 = New Bunifu.Framework.UI.BunifuSlider()
         Me.BunifuSlider1 = New Bunifu.Framework.UI.BunifuSlider()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.BunifuCustomLabel5 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Panel6 = New System.Windows.Forms.Panel()
         Me.BunifuDragControl1 = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
         Me.BunifuDragControl2 = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
-        Me.BunifuCustomLabel6 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel7 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel8 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.PlayButton1 = New Modern_Dashboard.playButton()
+        Me.PlayButton2 = New Modern_Dashboard.playButton()
+        Me.PlayButton3 = New Modern_Dashboard.playButton()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         CType(Me.BunifuImageButton6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BunifuImageButton5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -71,7 +84,18 @@ Partial Class Form1
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
+        CType(Me.BunifuImageButton13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BunifuImageButton12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BunifuImageButton11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BunifuImageButton10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BunifuImageButton9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BunifuImageButton8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BunifuImageButton7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel4.SuspendLayout()
+        Me.Panel7.SuspendLayout()
+        Me.Panel6.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'BunifuElipse1
@@ -478,7 +502,6 @@ Partial Class Form1
         '
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(14, Byte), Integer), CType(CType(14, Byte), Integer), CType(CType(14, Byte), Integer))
         Me.Panel2.BackgroundImage = CType(resources.GetObject("Panel2.BackgroundImage"), System.Drawing.Image)
-        Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel2.Controls.Add(Me.PictureBox2)
         Me.Panel2.Controls.Add(Me.BunifuCustomLabel2)
         Me.Panel2.Controls.Add(Me.BunifuCustomLabel1)
@@ -529,6 +552,7 @@ Partial Class Form1
         'BunifuFlatButton3
         '
         Me.BunifuFlatButton3.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BunifuFlatButton3.BackColor = System.Drawing.Color.Purple
         Me.BunifuFlatButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BunifuFlatButton3.BorderRadius = 0
@@ -631,6 +655,13 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(14, Byte), Integer), CType(CType(14, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.Panel3.Controls.Add(Me.BunifuImageButton13)
+        Me.Panel3.Controls.Add(Me.BunifuImageButton12)
+        Me.Panel3.Controls.Add(Me.BunifuImageButton11)
+        Me.Panel3.Controls.Add(Me.BunifuImageButton10)
+        Me.Panel3.Controls.Add(Me.BunifuImageButton9)
+        Me.Panel3.Controls.Add(Me.BunifuImageButton8)
+        Me.Panel3.Controls.Add(Me.BunifuImageButton7)
         Me.Panel3.Controls.Add(Me.BunifuCustomLabel8)
         Me.Panel3.Controls.Add(Me.BunifuCustomLabel7)
         Me.Panel3.Controls.Add(Me.BunifuCustomLabel6)
@@ -644,13 +675,155 @@ Partial Class Form1
         Me.Panel3.Size = New System.Drawing.Size(677, 76)
         Me.Panel3.TabIndex = 2
         '
+        'BunifuImageButton13
+        '
+        Me.BunifuImageButton13.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        Me.BunifuImageButton13.Image = CType(resources.GetObject("BunifuImageButton13.Image"), System.Drawing.Image)
+        Me.BunifuImageButton13.ImageActive = Nothing
+        Me.BunifuImageButton13.Location = New System.Drawing.Point(363, 40)
+        Me.BunifuImageButton13.Name = "BunifuImageButton13"
+        Me.BunifuImageButton13.Size = New System.Drawing.Size(24, 25)
+        Me.BunifuImageButton13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton13.TabIndex = 15
+        Me.BunifuImageButton13.TabStop = False
+        Me.BunifuImageButton13.Zoom = 10
+        '
+        'BunifuImageButton12
+        '
+        Me.BunifuImageButton12.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        Me.BunifuImageButton12.Image = CType(resources.GetObject("BunifuImageButton12.Image"), System.Drawing.Image)
+        Me.BunifuImageButton12.ImageActive = Nothing
+        Me.BunifuImageButton12.Location = New System.Drawing.Point(393, 40)
+        Me.BunifuImageButton12.Name = "BunifuImageButton12"
+        Me.BunifuImageButton12.Size = New System.Drawing.Size(24, 25)
+        Me.BunifuImageButton12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton12.TabIndex = 14
+        Me.BunifuImageButton12.TabStop = False
+        Me.BunifuImageButton12.Zoom = 10
+        '
+        'BunifuImageButton11
+        '
+        Me.BunifuImageButton11.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        Me.BunifuImageButton11.Image = CType(resources.GetObject("BunifuImageButton11.Image"), System.Drawing.Image)
+        Me.BunifuImageButton11.ImageActive = Nothing
+        Me.BunifuImageButton11.Location = New System.Drawing.Point(423, 40)
+        Me.BunifuImageButton11.Name = "BunifuImageButton11"
+        Me.BunifuImageButton11.Size = New System.Drawing.Size(24, 25)
+        Me.BunifuImageButton11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton11.TabIndex = 13
+        Me.BunifuImageButton11.TabStop = False
+        Me.BunifuImageButton11.Zoom = 10
+        '
+        'BunifuImageButton10
+        '
+        Me.BunifuImageButton10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BunifuImageButton10.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        Me.BunifuImageButton10.Image = CType(resources.GetObject("BunifuImageButton10.Image"), System.Drawing.Image)
+        Me.BunifuImageButton10.ImageActive = Nothing
+        Me.BunifuImageButton10.Location = New System.Drawing.Point(524, 40)
+        Me.BunifuImageButton10.Name = "BunifuImageButton10"
+        Me.BunifuImageButton10.Size = New System.Drawing.Size(24, 25)
+        Me.BunifuImageButton10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton10.TabIndex = 12
+        Me.BunifuImageButton10.TabStop = False
+        Me.BunifuImageButton10.Zoom = 10
+        '
+        'BunifuImageButton9
+        '
+        Me.BunifuImageButton9.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        Me.BunifuImageButton9.Image = CType(resources.GetObject("BunifuImageButton9.Image"), System.Drawing.Image)
+        Me.BunifuImageButton9.ImageActive = Nothing
+        Me.BunifuImageButton9.Location = New System.Drawing.Point(183, 31)
+        Me.BunifuImageButton9.Name = "BunifuImageButton9"
+        Me.BunifuImageButton9.Size = New System.Drawing.Size(30, 36)
+        Me.BunifuImageButton9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton9.TabIndex = 11
+        Me.BunifuImageButton9.TabStop = False
+        Me.BunifuImageButton9.Zoom = 10
+        '
+        'BunifuImageButton8
+        '
+        Me.BunifuImageButton8.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        Me.BunifuImageButton8.Image = CType(resources.GetObject("BunifuImageButton8.Image"), System.Drawing.Image)
+        Me.BunifuImageButton8.ImageActive = Nothing
+        Me.BunifuImageButton8.Location = New System.Drawing.Point(250, 31)
+        Me.BunifuImageButton8.Name = "BunifuImageButton8"
+        Me.BunifuImageButton8.Size = New System.Drawing.Size(30, 36)
+        Me.BunifuImageButton8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton8.TabIndex = 10
+        Me.BunifuImageButton8.TabStop = False
+        Me.BunifuImageButton8.Zoom = 10
+        '
+        'BunifuImageButton7
+        '
+        Me.BunifuImageButton7.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        Me.BunifuImageButton7.Image = CType(resources.GetObject("BunifuImageButton7.Image"), System.Drawing.Image)
+        Me.BunifuImageButton7.ImageActive = Nothing
+        Me.BunifuImageButton7.Location = New System.Drawing.Point(217, 31)
+        Me.BunifuImageButton7.Name = "BunifuImageButton7"
+        Me.BunifuImageButton7.Size = New System.Drawing.Size(30, 36)
+        Me.BunifuImageButton7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton7.TabIndex = 9
+        Me.BunifuImageButton7.TabStop = False
+        Me.BunifuImageButton7.Zoom = 10
+        '
+        'BunifuCustomLabel8
+        '
+        Me.BunifuCustomLabel8.AutoSize = True
+        Me.BunifuCustomLabel8.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel8.Font = New System.Drawing.Font("Yu Gothic UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel8.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.BunifuCustomLabel8.Location = New System.Drawing.Point(78, 52)
+        Me.BunifuCustomLabel8.Name = "BunifuCustomLabel8"
+        Me.BunifuCustomLabel8.Size = New System.Drawing.Size(86, 17)
+        Me.BunifuCustomLabel8.TabIndex = 8
+        Me.BunifuCustomLabel8.Text = "Weird Genius"
+        '
+        'BunifuCustomLabel7
+        '
+        Me.BunifuCustomLabel7.AutoSize = True
+        Me.BunifuCustomLabel7.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel7.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel7.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.BunifuCustomLabel7.Location = New System.Drawing.Point(77, 31)
+        Me.BunifuCustomLabel7.Name = "BunifuCustomLabel7"
+        Me.BunifuCustomLabel7.Size = New System.Drawing.Size(45, 21)
+        Me.BunifuCustomLabel7.TabIndex = 6
+        Me.BunifuCustomLabel7.Text = "Lathi"
+        '
+        'BunifuCustomLabel6
+        '
+        Me.BunifuCustomLabel6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BunifuCustomLabel6.AutoSize = True
+        Me.BunifuCustomLabel6.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel6.Font = New System.Drawing.Font("Yu Gothic UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel6.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.BunifuCustomLabel6.Location = New System.Drawing.Point(623, 9)
+        Me.BunifuCustomLabel6.Name = "BunifuCustomLabel6"
+        Me.BunifuCustomLabel6.Size = New System.Drawing.Size(32, 17)
+        Me.BunifuCustomLabel6.TabIndex = 7
+        Me.BunifuCustomLabel6.Text = "5:00"
+        '
+        'BunifuCustomLabel5
+        '
+        Me.BunifuCustomLabel5.AutoSize = True
+        Me.BunifuCustomLabel5.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel5.Font = New System.Drawing.Font("Yu Gothic UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel5.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.BunifuCustomLabel5.Location = New System.Drawing.Point(79, 9)
+        Me.BunifuCustomLabel5.Name = "BunifuCustomLabel5"
+        Me.BunifuCustomLabel5.Size = New System.Drawing.Size(32, 17)
+        Me.BunifuCustomLabel5.TabIndex = 6
+        Me.BunifuCustomLabel5.Text = "0:00"
+        '
         'BunifuSlider2
         '
+        Me.BunifuSlider2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BunifuSlider2.BackColor = System.Drawing.Color.Transparent
         Me.BunifuSlider2.BackgroudColor = System.Drawing.Color.DarkGray
         Me.BunifuSlider2.BorderRadius = 0
         Me.BunifuSlider2.IndicatorColor = System.Drawing.Color.SeaGreen
-        Me.BunifuSlider2.Location = New System.Drawing.Point(554, 39)
+        Me.BunifuSlider2.Location = New System.Drawing.Point(554, 40)
         Me.BunifuSlider2.MaximumValue = 100
         Me.BunifuSlider2.Name = "BunifuSlider2"
         Me.BunifuSlider2.Size = New System.Drawing.Size(101, 30)
@@ -659,6 +832,8 @@ Partial Class Form1
         '
         'BunifuSlider1
         '
+        Me.BunifuSlider1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BunifuSlider1.BackColor = System.Drawing.Color.Transparent
         Me.BunifuSlider1.BackgroudColor = System.Drawing.Color.DarkGray
         Me.BunifuSlider1.BorderRadius = 0
@@ -685,23 +860,33 @@ Partial Class Form1
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(14, Byte), Integer), CType(CType(14, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.Panel4.Controls.Add(Me.Panel7)
+        Me.Panel4.Controls.Add(Me.Panel6)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel4.Location = New System.Drawing.Point(200, 226)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(677, 176)
         Me.Panel4.TabIndex = 3
         '
-        'BunifuCustomLabel5
+        'Panel7
         '
-        Me.BunifuCustomLabel5.AutoSize = True
-        Me.BunifuCustomLabel5.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuCustomLabel5.Font = New System.Drawing.Font("Yu Gothic UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel5.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.BunifuCustomLabel5.Location = New System.Drawing.Point(79, 9)
-        Me.BunifuCustomLabel5.Name = "BunifuCustomLabel5"
-        Me.BunifuCustomLabel5.Size = New System.Drawing.Size(32, 17)
-        Me.BunifuCustomLabel5.TabIndex = 6
-        Me.BunifuCustomLabel5.Text = "0:00"
+        Me.Panel7.Controls.Add(Me.PictureBox3)
+        Me.Panel7.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel7.Location = New System.Drawing.Point(447, 0)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(230, 176)
+        Me.Panel7.TabIndex = 6
+        '
+        'Panel6
+        '
+        Me.Panel6.Controls.Add(Me.PlayButton3)
+        Me.Panel6.Controls.Add(Me.PlayButton2)
+        Me.Panel6.Controls.Add(Me.PlayButton1)
+        Me.Panel6.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Panel6.Location = New System.Drawing.Point(0, 0)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(447, 176)
+        Me.Panel6.TabIndex = 0
         '
         'BunifuDragControl1
         '
@@ -717,41 +902,42 @@ Partial Class Form1
         Me.BunifuDragControl2.TargetControl = Me.Panel1
         Me.BunifuDragControl2.Vertical = True
         '
-        'BunifuCustomLabel6
+        'PlayButton1
         '
-        Me.BunifuCustomLabel6.AutoSize = True
-        Me.BunifuCustomLabel6.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuCustomLabel6.Font = New System.Drawing.Font("Yu Gothic UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel6.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.BunifuCustomLabel6.Location = New System.Drawing.Point(623, 9)
-        Me.BunifuCustomLabel6.Name = "BunifuCustomLabel6"
-        Me.BunifuCustomLabel6.Size = New System.Drawing.Size(32, 17)
-        Me.BunifuCustomLabel6.TabIndex = 7
-        Me.BunifuCustomLabel6.Text = "5:00"
+        Me.PlayButton1.BackColor = System.Drawing.Color.FromArgb(CType(CType(14, Byte), Integer), CType(CType(14, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.PlayButton1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PlayButton1.Location = New System.Drawing.Point(0, 0)
+        Me.PlayButton1.Name = "PlayButton1"
+        Me.PlayButton1.Size = New System.Drawing.Size(447, 53)
+        Me.PlayButton1.TabIndex = 0
         '
-        'BunifuCustomLabel7
+        'PlayButton2
         '
-        Me.BunifuCustomLabel7.AutoSize = True
-        Me.BunifuCustomLabel7.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuCustomLabel7.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel7.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.BunifuCustomLabel7.Location = New System.Drawing.Point(77, 31)
-        Me.BunifuCustomLabel7.Name = "BunifuCustomLabel7"
-        Me.BunifuCustomLabel7.Size = New System.Drawing.Size(45, 21)
-        Me.BunifuCustomLabel7.TabIndex = 6
-        Me.BunifuCustomLabel7.Text = "Lathi"
+        Me.PlayButton2.BackColor = System.Drawing.Color.FromArgb(CType(CType(14, Byte), Integer), CType(CType(14, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.PlayButton2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PlayButton2.Location = New System.Drawing.Point(0, 53)
+        Me.PlayButton2.Name = "PlayButton2"
+        Me.PlayButton2.Size = New System.Drawing.Size(447, 53)
+        Me.PlayButton2.TabIndex = 1
         '
-        'BunifuCustomLabel8
+        'PlayButton3
         '
-        Me.BunifuCustomLabel8.AutoSize = True
-        Me.BunifuCustomLabel8.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuCustomLabel8.Font = New System.Drawing.Font("Yu Gothic UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel8.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.BunifuCustomLabel8.Location = New System.Drawing.Point(78, 52)
-        Me.BunifuCustomLabel8.Name = "BunifuCustomLabel8"
-        Me.BunifuCustomLabel8.Size = New System.Drawing.Size(86, 17)
-        Me.BunifuCustomLabel8.TabIndex = 8
-        Me.BunifuCustomLabel8.Text = "Weird Genius"
+        Me.PlayButton3.BackColor = System.Drawing.Color.FromArgb(CType(CType(14, Byte), Integer), CType(CType(14, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.PlayButton3.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PlayButton3.Location = New System.Drawing.Point(0, 106)
+        Me.PlayButton3.Name = "PlayButton3"
+        Me.PlayButton3.Size = New System.Drawing.Size(447, 53)
+        Me.PlayButton3.TabIndex = 2
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(20, 34)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(198, 114)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 0
+        Me.PictureBox3.TabStop = False
         '
         'Form1
         '
@@ -778,15 +964,24 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        CType(Me.BunifuImageButton13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BunifuImageButton12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BunifuImageButton11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BunifuImageButton10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BunifuImageButton9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BunifuImageButton8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BunifuImageButton7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel7.ResumeLayout(False)
+        Me.Panel6.ResumeLayout(False)
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents BunifuElipse1 As Bunifu.Framework.UI.BunifuElipse
     Friend WithEvents Panel4 As System.Windows.Forms.Panel
     Friend WithEvents Panel3 As System.Windows.Forms.Panel
-    Friend WithEvents Panel2 As System.Windows.Forms.Panel
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents BunifuImageButton1 As Bunifu.Framework.UI.BunifuImageButton
     Friend WithEvents Panel5 As System.Windows.Forms.Panel
     Friend WithEvents BunifuImageButton6 As Bunifu.Framework.UI.BunifuImageButton
@@ -819,5 +1014,20 @@ Partial Class Form1
     Friend WithEvents BunifuCustomLabel8 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCustomLabel7 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCustomLabel6 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents Panel7 As System.Windows.Forms.Panel
+    Friend WithEvents Panel6 As System.Windows.Forms.Panel
+    Friend WithEvents BunifuImageButton9 As Bunifu.Framework.UI.BunifuImageButton
+    Friend WithEvents BunifuImageButton8 As Bunifu.Framework.UI.BunifuImageButton
+    Friend WithEvents BunifuImageButton7 As Bunifu.Framework.UI.BunifuImageButton
+    Friend WithEvents BunifuImageButton13 As Bunifu.Framework.UI.BunifuImageButton
+    Friend WithEvents BunifuImageButton12 As Bunifu.Framework.UI.BunifuImageButton
+    Friend WithEvents BunifuImageButton11 As Bunifu.Framework.UI.BunifuImageButton
+    Friend WithEvents BunifuImageButton10 As Bunifu.Framework.UI.BunifuImageButton
+    Friend WithEvents Panel2 As System.Windows.Forms.Panel
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
+    Friend WithEvents PlayButton3 As Modern_Dashboard.playButton
+    Friend WithEvents PlayButton2 As Modern_Dashboard.playButton
+    Friend WithEvents PlayButton1 As Modern_Dashboard.playButton
 
 End Class
